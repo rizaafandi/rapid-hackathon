@@ -6,5 +6,5 @@ export const envs = {
  API_PREFIX: get('DEFAULT_API_PREFIX').default('/api/v1').asString(),
  NODE_ENV: get('NODE_ENV').asString(),
  API_WEATHER: get('API_WEATHER').asString(),
- API_GEMINI: get('API_GEMINI').asString()
+ API_URL_GEMINI: get('API_URL_GEMINI').asString()
 };
